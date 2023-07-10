@@ -56,26 +56,53 @@ body{
 /* bonus items */
 .bonas-img{
     display: flex;
-    /* justify-content:space-around; */
-    background-color:#ffffff;
+    justify-content:space-evenly;
     margin-left: 250px;
     margin: auto;
-    align-items:center;
+    align-items: baseline;
+    
+    
+    
 }
 .img-item-1{
-    width: 310px;
-    height: 428px;
-    background: rgba(167, 33, 98, 0.15);
-    
+
+border-radius: 300px 300px 0 0;
 }
-.img-item-2{
-    width: 270px;
-    height: 270px;
-    background: rgba(5, 151, 160, 0.15);
+.img-item-2{   
+    
+    border-radius: 300px 300px 0 0;
 }
 .img-item-3{
-    width: 314px;
-    height: 471px;
-    background: rgba(71, 125, 17, 0.15);
-    
+
+    border-radius: 300px 300px 0 0;
+}
+.bonas-img>img{
+    height: 10px;
+    width: 300px;
+}
+.img-driscription{
+    text-align: center;
+    margin-top: 25px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+
+}
+.small-container{
+    display: flex;
+    margin-top: 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content:space-around;
+    padding:55px;
+    text-align: center;
+    margin: 125px 240px 125px 240px ;
+
+}
+.sub-ders{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
