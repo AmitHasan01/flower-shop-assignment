@@ -15,11 +15,13 @@
 .m-header-titale{
 color: #272727;
 font-size: 50px;
-font-weight: 800;
+font-weight: 900;
+padding-bottom: 25px;
 }
 .m-header-deriscription{
     color: rgba(39, 39, 39, 0.60);
     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
 }
 .main-header-img{
     width: 400px;
@@ -42,16 +44,18 @@ body{
 .first-title{
     text-align: center;
 }
-.muilty-title{
+.multy-title{
     font-size: 30px;
     font-weight: 800; 
     color: #272727;
     margin-top: 100px ;
+    text-align: center;
 }
 .title-drescription{
     color: #27272799;
     margin-top: 20px;
     margin-bottom: 25px;
+    text-align: center;
 }
 /* bonus items */
 .bonas-img{
@@ -105,4 +109,24 @@ border-radius: 300px 300px 0 0;
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
+}
+.discount{
+    display: flex;
+    background-color: #E554730D;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+}
+.dis-img{
+    padding: 60px 0  60px 170px;
+    width: 318px;
+    height: 420px;
+
+
+}
+.discount-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
 }
