@@ -61,30 +61,49 @@ body{
 /* bonus items */
 .bonas-img{
     display: flex;
-    justify-content:space-evenly;
-    margin-left: 250px;
+    justify-content:center;
+    margin-left: 280px;
     margin: auto;
-    align-items: baseline;
-    
-    
-    
+    align-items:baseline;
+    width: 490px;
+    height: 538px;  
 }
 .img-item-1{
-
-border-radius: 300px 300px 0 0;
-}
-.img-item-2{   
-    
+    background-color: pink;
     border-radius: 300px 300px 0 0;
+    width: 370px;
+    height: 485px;
+    
+}
+.flowers-1{
+    width: 310px;
+    height: 428px; 
+    margin-top: 55px;
+}
+.img-item-2{  
+    width: 464px;
+    height: 480px; 
+    border-radius: 300px 300px 0 0;
+    background: rgba(5, 151, 160, 0.15);
+    margin-left: 24px;
+}
+.flowers-2{
+    width: 310px;
+    height: 428px; 
+    margin-top: 48px;  
 }
 .img-item-3{
-
+    margin-left: 24px;
     border-radius: 300px 300px 0 0;
 }
-.bonas-img>img{
+.flowers-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+/* .bonas-img>img{
     height: 10px;
     width: 300px;
-}
+} */
 .img-driscription{
     text-align: center;
     margin-top: 25px;
@@ -145,12 +164,17 @@ height: 396px;
     width: 1440px;
     height: 449px;
     margin:128px auto ;
-    
     text-align: center;
 }
 .last-details{
     position: relative;
     text-align: center;
+}
+.input-details{
+    position: absolute;
+    top: 50px;
+    left: 30%;
+   
 }
 .last{
     /* position: absolute; */
@@ -165,7 +189,7 @@ height: 396px;
     padding-left: 40px;
     margin:0 10px 15px 0;
     border-radius: 10px;
-    background-color: #a7a1a2;
+    background-color: #FFF;;
     font-size:larger;
 }
 .footer{
@@ -185,6 +209,7 @@ height: 396px;
 .time{
     color: aliceblue;
 }
-.last-details h2 p {
-    display: ;
+.bonas-img > image{
+    border: 2px solid green;
+    /* border-radius: 300px 300px 0 0; */
 }
