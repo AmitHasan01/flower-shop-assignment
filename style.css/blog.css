@@ -65,7 +65,7 @@ body{
     margin-left: 280px;
     margin: auto;
     align-items:baseline;
-    width: 490px;
+    width: 590px;
     height: 538px;  
 }
 .img-item-1{
@@ -73,32 +73,45 @@ body{
     border-radius: 300px 300px 0 0;
     width: 370px;
     height: 485px;
+    padding-left: 60px;
+    
     
 }
 .flowers-1{
     width: 310px;
     height: 428px; 
     margin-top: 55px;
+    margin-right: 40px;
 }
 .img-item-2{  
-    width: 464px;
+    width: 364px;
     height: 480px; 
     border-radius: 300px 300px 0 0;
     background: rgba(5, 151, 160, 0.15);
-    margin-left: 24px;
+    margin-left: 44px;
+    padding-right: 80px;
+    margin-left: 25px;
+
 }
 .flowers-2{
     width: 310px;
     height: 428px; 
     margin-top: 48px;  
+    padding-left: 85px;
 }
 .img-item-3{
+    width: 564px;
+    height: 480px; 
     margin-left: 24px;
-    border-radius: 300px 300px 0 0;
+    
+    padding-right: 100px;
 }
 .flowers-3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    width: 314px;
+    height: 471px;
+    padding-right: 60px;
 }
 /* .bonas-img>img{
     height: 10px;
